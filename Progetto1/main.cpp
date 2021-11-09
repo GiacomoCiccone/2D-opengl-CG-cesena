@@ -423,6 +423,7 @@ void INIT_MODELS() {
     for (int i = 1; i <= 50; i++)
     {
         for (int j = 1; j <= 4; j++) {
+            
             //square follow a sin shape
             float a =  4 * abs(sin(i / 4.0));
             squarePos.push_back(glm::vec2(400 * i + j * 52, 40 + 100 * a));
@@ -434,6 +435,7 @@ void INIT_MODELS() {
                 starsInfo.push_back(info);
             }
         }
+        if (400 * i + 4 * 52 + 52 > SCR_WIDTH * 5 + 200) break;
     }
 }
 
