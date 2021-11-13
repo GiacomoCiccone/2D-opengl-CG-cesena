@@ -4,15 +4,15 @@
 
 Il progetto utilizza la libreria [Libnoise](http://libnoise.sourceforge.net/tutorials/tutorial1.html) per generare le nuvole, quindi bisogna linkarla nella fase di compilazione. Inserire innanzitutto il file `libnoise.dll` nella directory `debug`. Dopodiche', andare nelle proprieta' del progetto -> `C/C++` -> `Directory di inclusione aggiuntive` -> `modifica` e aggiungere il patch della cartella `Include`.
 
-<img src="C:\Users\Agente-drif\AppData\Roaming\Typora\typora-user-images\image-20211113114800504.png" alt="image-20211113114800504" style="zoom:50%;" />
+<img src=".\Images\image-20211113114800504.png" alt="image-20211113114800504" style="zoom:50%;" />
 
  Poi andare in `Linker` -> `Generale` -> `Directory di librerie aggiuntive` -> `modifica` e aggiungere il path della cartella `Lib`.
 
-<img src="C:\Users\Agente-drif\AppData\Roaming\Typora\typora-user-images\image-20211113114610481.png" alt="image-20211113114610481" style="zoom: 50%;" />
+<img src=".\Images\image-20211113114610481.png" alt="image-20211113114610481" style="zoom: 50%;" />
 
 Infine andare in `Linker` -> `Input` -> `Dipendenze aggiuntive` -> `Modifica` e aggiungere la stringa `libnoise.dll`.
 
-<img src="C:\Users\Agente-drif\AppData\Roaming\Typora\typora-user-images\image-20211113114841385.png" alt="image-20211113114841385" style="zoom:50%;" />
+<img src=".\Images\image-20211113114841385.png" alt="image-20211113114841385" style="zoom:50%;" />
 
 A questo punto, assumendo che vi siano i package `nupengl.core` e `glm` installati il progetto dovrebbe poter essere compilato.
 
@@ -23,18 +23,19 @@ Per muoversi verso destra premere `D` mentre per muoversi verso sinistra `A`. Pe
 ## Scheenshots
 
 <figure>
-<img src="C:\Users\Agente-drif\AppData\Roaming\Typora\typora-user-images\image-20211113115059058.png" alt="image-20211113115059058" style="zoom:50%;" />
+<img src=".\Images\image-20211113115059058.png" alt="image-20211113115059058" style="zoom:50%;" />
 <caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>1) Partita appena iniziata<i/></span></caption>
 </figure>
 
 <figure>
-<img src="C:\Users\Agente-drif\AppData\Roaming\Typora\typora-user-images\image-20211113115147088.png" alt="image-20211113115147088" style="zoom:50%;" />
+<img src=".\Images\image-20211113115147088.png" alt="image-20211113115147088" style="zoom:50%;" />
 <caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>2) Raccolta pallina verde<i/></span></caption>
 </figure>
 <figure>
-<img src="C:\Users\Agente-drif\AppData\Roaming\Typora\typora-user-images\image-20211113115743535.png" alt="image-20211113115743535" style="zoom:50%;" />
+<img src=".\Images\image-20211113115743535.png" alt="image-20211113115743535" style="zoom:50%;" />
 <caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>3) Partita finita<i/></span></caption>
 </figure>
+
 
 ## Osservazioni
 
