@@ -24,16 +24,16 @@ Per muoversi verso destra premere `D` mentre per muoversi verso sinistra `A`. Pe
 
 <figure>
 <img src=".\Images\image-20211113115059058.png" alt="image-20211113115059058" style="zoom:50%;" />
-<caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>1) Partita appena iniziata<i/></span></caption>
+<caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>1) Partita appena iniziata</i></span></caption>
 </figure>
 
 <figure>
 <img src=".\Images\image-20211113115147088.png" alt="image-20211113115147088" style="zoom:50%;" />
-<caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>2) Raccolta pallina verde<i/></span></caption>
+<caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>2) Raccolta pallina verde</i></span></caption>
 </figure>
 <figure>
 <img src=".\Images\image-20211113115743535.png" alt="image-20211113115743535" style="zoom:50%;" />
-<caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>3) Partita finita<i/></span></caption>
+<caption><span style="display: flex; justify-content: center; margin-top:10px;"><i>3) Partita finita</i></span></caption>
 </figure>
 
 
